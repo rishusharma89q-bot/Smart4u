@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart4U - Best Deals & Reviews</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+body{
+background:#0f172a;
+color:#fff;
+}
+header{
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+}
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+.hero h1{
+font-size:34px;
+margin-bottom:15px;
+}
+.hero p{
+font-size:16px;
+opacity:.8;
+margin-bottom:20px;
+}
+.btn{
+padding:14px 28px;
+border:2px solid #fff;
+border-radius:30px;
+background:transparent;
+color:#fff;
+cursor:pointer;
+transition:.3s;
+text-decoration:none;
+display:inline-block;
+}
+.btn:hover{
+transform:scale(1.08);
+background:#fff;
+color:#000;
+}
+.section{
+padding:40px 20px;
+}
+.section h2{
+text-align:center;
+margin-bottom:30px;
+font-size:28px;
+}
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.3);
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-8px);
+}
+.card img{
+width:100%;
+border-radius:15px;
+}
+.card h3{
+margin:15px 0;
+}
+.price{
+font-size:20px;
+font-weight:bold;
+margin:10px 0;
+color:#38bdf8;
+}
+.newsletter{
+text-align:center;
+padding:50px 20px;
+background:#1e293b;
+}
+input{
+padding:14px;
+width:80%;
+max-width:350px;
+border:none;
+border-radius:30px;
+margin:10px;
+}
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+margin-top:30px;
+}
+</style>
+</head>
+<body>
 
+<header>
+<div class="logo">Smart4U</div>
+<a href="#" class="btn">Explore Deals</a>
+</header>
+
+<section class="hero">
+<h1>Best Deals, Reviews & Buying Guides</h1>
+<p>Discover trending products with honest reviews and smart buying tips.</p>
+<a href="#products" class="btn">Shop Now</a>
+</section>
+
+<section class="section" id="products">
+<h2>Trending Products</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/300" alt="Product">
+<h3>Smart Watch</h3>
+<p>Track fitness and stay connected.</p>
+<div class="price">₹1999</div>
+<a href="YOUR_AFFILIATE_LINK" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300" alt="Product">
+<h3>Wireless Earbuds</h3>
+<p>Premium sound quality with deep bass.</p>
+<div class="price">₹1499</div>
+<a href="YOUR_AFFILIATE_LINK" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300" alt="Product">
+<h3>Portable Blender</h3>
+<p>Make shakes anywhere, anytime.</p>
+<div class="price">₹999</div>
+<a href="YOUR_AFFILIATE_LINK" class="btn">Buy Now</a>
+</div>
+
+</div>
+</section>
+
+<section class="newsletter">
+<h2>Get Daily Deals</h2>
+<p>Subscribe for latest offers and product updates.</p>
+<input type="email" placeholder="Enter your email">
+<br>
+<button class="btn">Subscribe</button>
+</section>
+
+<footer>
+<p>© 2026 Smart4U | Affiliate Deals & Reviews</p>
+</footer>
+
+</body>
+</html>
